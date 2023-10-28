@@ -21,6 +21,7 @@ const Popup = () => {
           className="text-black rounded-md px-2"
           placeholder="Jack O Lantern"
           type="text"
+          value={pumpkin}
           onChange={(e) => setPumpkin(e.target.value)}
         />
         <p className="my-4"> Your message </p>
@@ -29,6 +30,7 @@ const Popup = () => {
             className="text-black rounded-md px-2 mb-2"
             placeholder="Watch under your bed"
             type="text"
+            value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
           <button type="submit" className="bg-button p-2 rounded-lg mt-4">
@@ -54,7 +56,7 @@ const Popup = () => {
             setMessage("");
           }}
         >
-          New latern
+          New pumpkin
         </button>
       )}
     </div>

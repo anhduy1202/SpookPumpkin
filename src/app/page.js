@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col text-center">
         <h1 className="text-[3rem] text-secondary"> SpookPumpkin 🎃 </h1>
         <p className="mt-4 text-[1.25rem]">
-          Send secret pumpkin to your friends 👻
+          Create pumpkin for Halloween 👻
         </p>
         <button
           onClick={() => setActive(!isActive)}
